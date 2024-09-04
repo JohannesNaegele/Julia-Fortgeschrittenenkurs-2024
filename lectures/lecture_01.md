@@ -1,12 +1,12 @@
 # Organisation
 
 ## Prüfungsleistung
-Die zu erbringende Prüfungsleistung besteht einem Kolloquium von 20 Minuten; für die die Zulassung werden 50% der Übungsblattpunkte benötigt. Prüfungsfragen können sich nicht nur auf die Vorlesungsinhalte, sondern auch auf die individuellen Programmieraufgaben/-projekte beziehen.
+Die zu erbringende Prüfungsleistung besteht einem Kolloquium von 20 Minuten; für die die Zulassung werden 50% der Übungsblattpunkte benötigt. Prüfungsfragen können sich nicht nur auf die Vorlesungsinhalte, sondern auch auf die Programmieraufgaben und -projekte beziehen.
 
 Die Vorlesungsinhalte sind voraussichtlich:
 - Wie entwickelt man ein Paket in Julia?
-- Design Patterns bzw. dazu gehörige Beispielprobleme (anhand des Buches *Hands-On Design Patterns and Best Practices with Julia*)
-- Beschleunigungsthemen, darunter Techniken wie Threading, GPU-Programmierung, SIMD, smarte Algorithmik, aber auch Julia spezifische Tricks.
+- Design Patterns bzw. dazugehörige Beispielprobleme (anhand des Buches *Hands-On Design Patterns and Best Practices with Julia*)
+- Beschleunigungsthemen, darunter Techniken wie Threading, GPU-Programmierung, SIMD, smarte Algorithmik, aber auch Profiling und Julia spezifische Tricks.
 - State-of-the-art und interessante neue Pakete und Ansätze (zu plotting, zu autodiff, Pluto.jl, JET.jl, DrWatson.jl, Documenter.jl, Dagger.jl)
 - Typische Anwendungen wie Web crawler, Datenbanken, Datenanalyse oder GUI.
 
@@ -16,11 +16,14 @@ Es ist natürlich immer schön, wenn man Konzepte direkt an einem konkreten Proj
 - Das Evergreen Matrixmultiplikation (ein erstaunlich nichttriviales Problem).
 - Ein interessantes VWL-Problem (geht auch in Richtung Reinforcement Learning; Fragestellung: Warum hat Geld einen Wert? Wahrscheinlich aber zu schwer).
 
+Andere Ideen, Vorschläge, Fragen sind willkommen!
+
 # Bücher und Materialien
 
+- [Offizielle Dokumentation](https://docs.julialang.org/en/v1/)
 - [Programmierkurs Julia](https://github.com/JohannesNaegele/Programmierkurs-Julia)
-- [Julia Programming Projects](https://learning.oreilly.com/library/view/julia-programming-projects/9781788292740/)
 - [Hands-On Design Patterns and Best Practices with Julia](https://learning.oreilly.com/library/view/hands-on-design-patterns/9781838648817/)
+- [Julia Programming Projects](https://learning.oreilly.com/library/view/julia-programming-projects/9781788292740/)
 
 # Git
 
@@ -90,9 +93,7 @@ Wie das geht, wird [hier](https://kshyatt.github.io/post/firstjuliapr/) schön e
 
 # Code formatting
 
-https://github.com/domluna/JuliaFormatter.jl
-
-Templates wie `style = "sciml"` sind ganz nett.
+Damit Code einheitlich formattiert ist, kann man [JuliaFormatter.jl](https://github.com/domluna/JuliaFormatter.jl) nutzen. Templates wie `style = "sciml"` sind ganz nett.
 
 # Hausaufgabe:
 
