@@ -18,6 +18,7 @@ import .MyModule: sin as engineer_sin
 baz()
 sin(1)
 MyModule.sin(1)
+
 MM.sin(1)
 engineer_sin(1)
 
