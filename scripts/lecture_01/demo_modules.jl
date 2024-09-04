@@ -2,8 +2,6 @@
 f(x) = (a = 3; return x * a) # local scope
 f(3)
 a
-b = 3
-b
 
 # Base library
 parentmodule(sin)
